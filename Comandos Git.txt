@@ -1,0 +1,47 @@
+Comandos GitBash
+
+Identificação do Desenvolvedor:
+git config --global user.name "Nome do Desenvolvedor"
+git config --global user.email "desenvolvedor@example.com"
+
+Conexão de Rede:
+git config --global http.proxy 192.168.7.253:8080
+ou
+git config --global --unset http.proxy
+
+cd (+ nome da pasta para entrar)
+cd .. (para sair da pasta)
+
+mkdir (para criar um diretorio)
+
+ls (para ver o que tem na pasta)
+ls -a (para ver o que tem na pasta incluindo os arquivos git)
+
+git init (para inicializar o git na pasta)
+
+git status (para ver a situação da pasta)
+
+git clone (+ o endereço do repositorio, para copiar um Repositório)
+
+git add . (para adicionar todas as alterações locais)
+
+git commit (para gravar no git local as alterações pendentes)
+
+[quando abrir o vim, seguir os passos:
+- tecla i (para escrever o conteudo da mensagem de alteração)
+- tecla ESC e depois digitar :wq (para salvar e sair do vim)]
+
+git commit -m 'digitar a modificação' (para escrever a msg de modif direto no comando)
+
+git log (para ver qual usuario postou ou modificou o que)
+
+touch .gitignore (para criar o arquivo gitignore la na pasta, inserir *.log no arquivo)
+
+git branch NomeDoMeuBranch (cria um novo branch)
+git checkout NomeDoMeuBranch (entra no branch)
+
+[apos adicionar novos arquivos ou fazer as alterações, adições e commits:]
+git checkout master (para voltar ao master)
+git merge NomeDoMeuBranch (para incorporar meu branch ao master novamente)
+
+git pull (para atualizar um Repositório Local)
